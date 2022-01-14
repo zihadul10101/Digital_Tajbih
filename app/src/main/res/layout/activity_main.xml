@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:id="@+id/tvDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textStyle="bold"
+        android:layout_margin="40dp"
+        android:gravity="center"
+        android:textSize="60dp"
+     />
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="35sp"
+        android:backgroundTint="#B11E31"
+        android:layout_margin="10dp"
+        android:text="ADD ONE" />
+
+    <Button
+        android:id="@+id/buttonSub"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:backgroundTint="#F5B070"
+        android:layout_margin="10dp"
+        android:textSize="35sp"
+        android:layout_height="wrap_content"
+        android:text="SUB ONE" />
+
+    <Button
+        android:id="@+id/buttonRest"
+        android:layout_width="match_parent"
+        android:textSize="35sp"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:text="REST" />
+
+
+
+</LinearLayout>
